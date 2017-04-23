@@ -1,0 +1,19 @@
+{
+  "name": "phone-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A startup project for AngularJS",
+  "repository": "https://github.com/blueacid7/phoneApp",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./app",
+    "postinstall": "bower install"
+  }
+}
