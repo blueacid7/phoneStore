@@ -5,6 +5,10 @@
   "description": "A startup project for AngularJS",
   "repository": "https://github.com/blueacid7/phoneApp",
   "license": "MIT",
+  "engines":{
+    "node":"6.10.2",
+    "npm":"3.10.9"
+  },
   "dependencies": {
     "express": "^4.15.2"
   },
